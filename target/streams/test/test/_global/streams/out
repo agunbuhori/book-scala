@@ -1,0 +1,32 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(services.BookOrderServiceSpec, sbt.ForkMain$SubclassFingerscan@222114ba, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBookOrderServiceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBookOrderService[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should create order successfully[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw ValidationException when create payload invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return paged list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw ValidationException when pagination invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update existing order[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw NotFoundException when updating non-existing order[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete existing order[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw NotFoundException when deleting non-existing order[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 8 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(validation.BookOrderRequestValidatorSpec, sbt.ForkMain$SubclassFingerscan@16e7dcfd, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBookOrderRequestValidatorSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBookOrderRequestValidator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should validate create payload successfully[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw ValidationException for invalid create payload[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should validate update payload successfully[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw ValidationException for invalid update payload[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 4 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 557 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 12[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	services.BookOrderServiceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	validation.BookOrderRequestValidatorSpec[0m

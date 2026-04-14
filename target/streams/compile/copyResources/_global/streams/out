@@ -1,2 +1,4 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/a.buhori/Desktop/scala-book/conf/application.conf,/Users/a.buhori/Desktop/scala-book/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/a.buhori/Desktop/scala-book/conf/routes,/Users/a.buhori/Desktop/scala-book/target/scala-2.13/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/a.buhori/Desktop/scala-book/conf/evolutions/default/1.sql,/Users/a.buhori/Desktop/scala-book/target/scala-2.13/classes/evolutions/default/1.sql)[0m

@@ -1,16 +1,23 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/a.buhori/Desktop/scala-book/src/main/scala/Main.scala:2:16: illegal start of simple pattern[0m
-[0m[[0m[31merror[0m] [0m[0m    for (int i = 0; i < 10; i++) {[0m
-[0m[[0m[31merror[0m] [0m[0m               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/a.buhori/Desktop/scala-book/src/main/scala/Main.scala:2:19: '<-' expected but ';' found.[0m
-[0m[[0m[31merror[0m] [0m[0m    for (int i = 0; i < 10; i++) {[0m
-[0m[[0m[31merror[0m] [0m[0m                  ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/a.buhori/Desktop/scala-book/src/main/scala/Main.scala:2:27: '<-' expected but ';' found.[0m
-[0m[[0m[31merror[0m] [0m[0m    for (int i = 0; i < 10; i++) {[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/a.buhori/Desktop/scala-book/app/errors/ApiErrorHandler.scala:24:27: not enough arguments for method apply: (success: Boolean, code: String, message: String, details: Option[String]): errors.ApiError in object ApiError.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter message.[0m
+[0m[[0m[31merror[0m] [0m[0m    val payload = ApiError("CLIENT_ERROR", message)[0m
 [0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/a.buhori/Desktop/scala-book/src/main/scala/Main.scala:2:32: illegal start of simple pattern[0m
-[0m[[0m[31merror[0m] [0m[0m    for (int i = 0; i < 10; i++) {[0m
-[0m[[0m[31merror[0m] [0m[0m                               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/a.buhori/Desktop/scala-book/src/main/scala/Main.scala:5:1: illegal start of simple expression[0m
-[0m[[0m[31merror[0m] [0m[0m}[0m
-[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/a.buhori/Desktop/scala-book/app/errors/ApiErrorHandler.scala:27:48: not enough arguments for method apply: (success: Boolean, code: String, message: String, details: Option[String]): errors.ApiError in object ApiError.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter message.[0m
+[0m[[0m[31merror[0m] [0m[0m      case 404 => NotFound(Json.toJson(ApiError("NOT_FOUND", "Route not found")))[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/a.buhori/Desktop/scala-book/app/errors/ApiErrorHandler.scala:38:40: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: Boolean[0m
+[0m[[0m[31merror[0m] [0m[0m            Json.toJson(ApiError(appEx.code, appEx.getMessage, appEx.details))[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/a.buhori/Desktop/scala-book/app/errors/ApiErrorHandler.scala:38:70: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Option[String][0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m            Json.toJson(ApiError(appEx.code, appEx.getMessage, appEx.details))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/a.buhori/Desktop/scala-book/app/errors/ApiErrorHandler.scala:44:51: not enough arguments for method apply: (success: Boolean, code: String, message: String, details: Option[String]): errors.ApiError in object ApiError.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter message.[0m
+[0m[[0m[31merror[0m] [0m[0m          InternalServerError(Json.toJson(ApiError("INTERNAL_SERVER_ERROR", "Unexpected server error")))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
 [0m[[0m[31merror[0m] [0m[0m5 errors found[0m

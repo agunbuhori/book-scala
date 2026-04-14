@@ -1,0 +1,9 @@
+# Health endpoint
+GET     /api/v1/health               controllers.HealthController.health
+
+# Book order REST endpoints
+POST    /api/v1/orders               controllers.BookOrderController.create
+GET     /api/v1/orders               controllers.BookOrderController.list(page: Int ?= 1, size: Int ?= 10)
+GET     /api/v1/orders/:id           controllers.BookOrderController.getById(id: Long)
+PUT     /api/v1/orders/:id           controllers.BookOrderController.update(id: Long)
+DELETE  /api/v1/orders/:id           controllers.BookOrderController.delete(id: Long)
